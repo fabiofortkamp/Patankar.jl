@@ -11,6 +11,9 @@ website:
         icon: house
       - href: about.qmd
         icon: info
+      - text: "Solutions Manual"
+        icon: journal-text
+        href: "Solutions Manual/chapter2.qmd"
     tools:
       - icon: github
         menu:
@@ -18,7 +21,15 @@ website:
             url:  https://github.com/fabiofortkamp/Patankar.jl
           - text: Report a Bug
             url:  https://github.com/fabiofortkamp/Patankar.jl/issues
-
+  sidebar:
+    - title: "Solutions Manual"
+      style: "docked"
+      background: light
+      contents:
+        - text: Chapter 2
+          href: "Solutions Manual/chapter2.qmd"
+        - text: Chapter 3
+          href: "Solutions Manual/chapter3.qmd"
 format:
   html:
     theme: cosmo
