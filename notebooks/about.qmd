@@ -2,4 +2,29 @@
 title: "About"
 ---
 
-About this site
+Hi there. I'm Fábio Fortkamp, a researcher and engineer from southern Brazil.
+
+My current work is focused on the development of software packages dedicated
+to the oil & gas industry, so I'm very interested in the use of data science
+focused languages (Python, Julia & R) in Thermal Engineering problems (like
+the heat transfer and fluid flow phenomena in wellbores).
+
+In February 2024, I also started to co-supervise a PhD thesis on the transient
+modeling of petroleum flow, so I decided to study along my new student the
+fundamentals of Computational Fluid Flow. Although I have studied and used
+this subject extensively in my career, even having taught some classes on it,
+I thought it was the time for a refresh.
+
+So Patanjar.jl is a project where I go through my favorite CFD book by S. V. 
+Patankar [^1] (on this website termed "the Patankar book") and type out
+my notes and solutions to the exercises. I decided to use Julia for 
+implementing the computational part, as it is my favorite language
+for prototyping and reasoning about mathematics and computational.
+
+All the sources (for the website and the code) in on the
+[GitHub repo](https://github.com/fabiofortkamp/Patankar.jl). Feel free
+to [file an issue](https://github.com/fabiofortkamp/Patankar.jl/issues) if you 
+have any comment.
+
+[^1]: Patankar, S. V. Numerical heat transfer and fluid flow. 
+[s.l]: Taylor & Francis, 1980.

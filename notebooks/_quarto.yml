@@ -2,12 +2,22 @@ project:
   type: website
   output-dir: "../docs"
 website:
-  title: "Solutions to Exercises from Patankar CFD book"
+  title: "Patankar.jl"
   navbar:
+    search: true
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+        icon: house
+      - href: about.qmd
+        icon: info
+    tools:
+      - icon: github
+        menu:
+          - text: Source Code
+            url:  https://github.com/fabiofortkamp/Patankar.jl
+          - text: Report a Bug
+            url:  https://github.com/fabiofortkamp/Patankar.jl/issues
 
 format:
   html:
